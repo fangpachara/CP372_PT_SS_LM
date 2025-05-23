@@ -149,6 +149,6 @@ Ultra Luxury > Luxury > Mid-range > Affordable ในแง่ราคาต่
 โครงการนี้เป็นการประยุกต์ใช้เทคนิคด้าน Data Analytics และ Business Intelligence ผ่านการใช้เครื่องมือวิเคราะห์ข้อมูล เช่น Excel และ Tableau ซึ่งสามารถต่อยอดได้ในบริบททางธุรกิจอื่น ๆ ได้ต่อไป
 
 ---
-Youtube Presentation : 
+Youtube Presentation : https://youtu.be/ufQ14dnl3Vs
 
 ---
