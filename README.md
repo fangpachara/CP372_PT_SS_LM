@@ -27,36 +27,66 @@
 ข้อมูลที่ใช้ (Data) : https://www.kaggle.com/datasets/varintornsithisint/bangkok-housing-condo-apartment-prices
 ---
 # Problem Statement
-
+ผู้ประกอบการอสังหาริมทรัพย์ในกรุงเทพฯ ต้องการข้อมูลเชิงลึกเกี่ยวกับแนวโน้มราคาคอนโดมิเนียมและศักยภาพของทำเลต่าง ๆ เพื่อสนับสนุนการตัดสินใจลงทุนและการพัฒนากลยุทธ์การตลาดให้แม่นยำยิ่งขึ้น
 
 ---
 # Key Stakeholders
-
+- ผู้ซื้อ / นักลงทุนอสังหาริมทรัพย์
+- ตัวแทนขาย / นายหน้าอสังหาริมทรัพย์
+- เจ้าของโครงการ / ผู้พัฒนาอสังหาริมทรัพย์
+- ทีมพัฒนาเว็บไซต์ / นักวิเคราะห์ข้อมูล
+- ฝ่ายการตลาด / ผู้บริหาร
+ 
 ---
 # Tool
+- ข้อมูลราคาคอนโดมิเนียมในกรุงเทพฯ (ไฟล์ CSV) 
+- Tableau (สำหรับการวิเคราะห์และสร้าง Dashboard)
+- Excel (สำหรับวิเคราะห์ข้อมูลเพิ่มเติม) 
+- google colab (ใช้ในการทำความสะอาดข้อมูล)
+- GitHub (สำหรับจัดทำรายงาน)
+
 ---
 #2.Data Preparation
 
 2.1 Data Cleaning (ทำความสะอาดข้อมูล)
+![image](https://github.com/user-attachments/assets/a76c8dfc-e9b1-4462-8d5e-927971d10075)
 
 2.2 Feature Engineering (สร้างฟิลด์ใหม่)
+![image](https://github.com/user-attachments/assets/984102ec-a41a-446d-8f53-cccc355bdbd0)
+
+2.3 Export ข้อมูลที่ผ่านการทำความสะอาดและเพิ่มฟีเจอร์แล้ว
+![image](https://github.com/user-attachments/assets/6d0f9bc3-2972-4601-a2a7-f76fb0c0f1c5)
 
 ---
 # 3.Exploratory Data Analysis
+![image](https://github.com/user-attachments/assets/972c0208-9044-40ca-94b9-3e50d9e2dd6f)
+![image](https://github.com/user-attachments/assets/b89d7a4a-81f6-4204-ad72-1d7bb2322103)
+![image](https://github.com/user-attachments/assets/408c948b-96ad-4c54-a7df-ad6365856956)
+![image](https://github.com/user-attachments/assets/5e98c47d-9391-43c8-a84f-18cf72d3b2c9)
+![image](https://github.com/user-attachments/assets/3517cd96-3a40-4b14-b7dd-28f371ad925e)
+![image](https://github.com/user-attachments/assets/f4fa3edc-ea97-46ac-88dd-ab954f1c3795)
+![image](https://github.com/user-attachments/assets/b6b31cb8-53fc-43c8-85f2-20ab54212773)
+
+
 ---
 # 4. In-Depth Analysis
 4.1 ระดับความหรูหราใดให้ความคุ้มค่าสูงสุด?
+![image](https://github.com/user-attachments/assets/6fd587b5-061a-408c-b806-0cb703cf6781)
 
 4.2 พื้นที่ใช้สอยมีผลต่อราคาขายหรือไม่?
+![image](https://github.com/user-attachments/assets/3ccbe988-4a7d-48df-a6e1-0985959616ad)
 
 ---
 # 5. Insights & Recommendations
 
 5.1 ทำเลไหนให้ความคุ้มค่าสูงสุดเมื่อเทียบราคากับพื้นที่?
+![image](https://github.com/user-attachments/assets/a0f1be2e-4c9d-4731-b0f9-954b2ba27529)
 
 5.2 ระดับความหรูหราสัมพันธ์กับราคาต่อตารางเมตรหรือไม่?
+![image](https://github.com/user-attachments/assets/06fb39d4-73ef-46c2-9687-6063cefaa0dc)
 
 5.3 คอนโดที่มีจำนวนห้องนอนมากขึ้น มีราคาต่อ ตร.ม. สูงขึ้นหรือต่ำลงเมื่อเทียบกับขนาดเล็กกว่าในทำเลเดียวกันหรือไม่?
+![image](https://github.com/user-attachments/assets/4ff221bf-79c6-4422-bd88-3ae063055b2b)
 
 # Recommendations
 
